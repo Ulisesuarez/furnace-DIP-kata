@@ -1,4 +1,4 @@
-package org.foobarspam.furnaceDIP.types;
+package org.mvpigs.furnaceDIP.types;
 
 public class RoomTemperature {
 	
@@ -7,7 +7,7 @@ public class RoomTemperature {
 	public RoomTemperature(double temperature){
 		this.temperature = temperature;
 	}
-
+	public RoomTemperature(){}
 	public double getTemperature() {
 		return this.temperature;
 	}

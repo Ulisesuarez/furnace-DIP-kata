@@ -26,5 +26,12 @@
 	    <artifactId>assertj-core</artifactId>
 	    <version>3.6.2</version>
 	</dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>4.2.0</version>
+    </dependency>
+
   </dependencies>
 </project>

@@ -1,8 +1,10 @@
-package org.foobarspam.furnaceDIP.hardware;
+package org.mvpigs.furnaceDIP.hardware;
 
-import org.foobarspam.furnaceDIP.interfaces.Heater;
-import org.foobarspam.furnaceDIP.types.RoomTemperature;
+import com.google.inject.Singleton;
+import org.mvpigs.furnaceDIP.interfaces.Heater;
+import org.mvpigs.furnaceDIP.types.RoomTemperature;
 
+@Singleton
 public class GasHeater implements Heater {
 	
 	public void engage(RoomTemperature temperature){
